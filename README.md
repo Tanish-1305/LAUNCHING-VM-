@@ -4,9 +4,12 @@ Launching a virtual machine (VM) on AWS is primarily done through Amazon EC2 (El
 Step 1: Sign in to AWS Management Console
 Go to the AWS Management Console.
 Log in with your AWS account credentials.
+
+
 Step 2: Open the EC2 Dashboard
 In the AWS Management Console, search for "EC2" in the services search bar.
 Click on "EC2" to open the EC2 Dashboard.
+
 Step 3: Launch an Instance
 Click on the “Launch Instance” button.
 Choose an Amazon Machine Image (AMI): Select a pre-configured template that includes the OS and software you want. You can filter by operating system or other features.
@@ -15,11 +18,15 @@ Configure Instance: Set options such as the number of instances, network setting
 Add Storage: Modify the default storage size if needed. The default is usually sufficient for general use.
 Add Tags: Optionally, add tags to help identify your instance (e.g., Name: MyInstance).
 Configure Security Group: Set up a security group to control inbound and outbound traffic. You can create a new group or select an existing one. Make sure to allow SSH (port 22) for Linux instances or RDP (port 3389) for Windows instances.
+
+
 Step 4: Review and Launch
 Review your instance configuration.
 Click on the “Launch” button.
 You will be prompted to select an existing key pair or create a new one. This key pair is necessary for accessing your instance later.
 After selecting or creating the key pair, acknowledge the terms and click “Launch Instances.”
+
+
 Step 5: Access Your Instance
 Once your instance is running, you can find it in the “Instances” section of the EC2 Dashboard.
 To connect to a Linux instance, use an SSH client:
